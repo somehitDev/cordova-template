@@ -1,0 +1,14 @@
+{
+    "name": "@oyajiDev/cordova-template",
+    "version": "0.0.1",
+    "description": "cordova app template",
+    "repository": "github:oyajiDev/cordova-template",
+    "bugs": "https://github.com/oyajiDev/cordova-template/issues",
+    "main": "index.js",
+    "keywords": [
+        "ecosystem:cordova",
+        "cordova:template"
+    ],
+    "author": "oyajiDev",
+    "license": "MIT"
+  }

@@ -1,0 +1,24 @@
+{
+    "electron": {
+        "windows": {
+            "package": [ "nsis" ],
+            "arch": [ "x64", "arm64" ]
+        },
+        "linux": {
+            "package": [ "AppImage" ],
+            "arch": [ "x64", "arm64", "armv7l" ]
+        },
+        "mac": {
+            "package": [ "dmg", "pkg" ],
+            "arch": [ "x64", "arm64" ],
+            "signing": {
+                "debug": {
+                    "identity": "cordova test1"
+                },
+                "release": {
+                    "identity": "cordova test1"
+                }
+            }
+        }
+    }
+}

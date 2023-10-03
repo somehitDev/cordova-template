@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.oyajidev.template" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>cordova-template</name>
+    <description>cordova app template</description>
+    <author email="this.dev.somehit@gmail.com" href="https://github.com/oyajiDev/oyajiDev">
+        oyajiDev
+    </author>
+
+    <platform name="electron">
+        <icon src="assets/icon.png" />
+        <splash src="assets/splash.png" />
+    </platform>
+
+    <platform name="browser">
+        <icon src="assets/icon.png" />
+        <splash src="assets/splash.png" />
+    </platform>
+
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+</widget>
