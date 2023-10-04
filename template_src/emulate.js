@@ -10,10 +10,7 @@ var customEnv = process.env;
 const args = process.argv.slice(3);
 
 // pre-build
-if (target == "electron") {
-    customEnv["PYTHON_PATH"] = "python2"
-}
-else if (target == "ios") {
+if (target == "ios") {
     args.push("--");
     args.push("--automaticProvisioning=false");
     args.push("--packageType=development")
@@ -34,7 +31,7 @@ if (fs.existsSync(buildDir)) {
 // build
 spawnSync(
     "cordova",
-    [ "build", target, ...args ],
+    [ "emulate", target, ...args ],
     {
         cwd: __dirname, env: customEnv,
         stdio: [ process.stdin, process.stdout, process.stderr ],
