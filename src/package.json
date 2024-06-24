@@ -1,5 +1,5 @@
 {
-    "name": "com.oyajidev.template",
+    "name": "com.somehit.template",
     "displayName": "cordova-template",
     "version": "1.0.0",
     "description": "cordova app template",
@@ -26,7 +26,7 @@
     "keywords": [
         "ecosystem:cordova"
     ],
-    "author": "oyajiDev",
+    "author": "somehitDev",
     "license": "MIT",
     "devDependencies": {
         "cordova-icon-new": "^1.0.2",

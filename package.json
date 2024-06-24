@@ -1,14 +1,33 @@
 {
-    "name": "@oyajiDev/cordova-template",
+    "name": "@somehitDev/cordova-template",
     "version": "0.0.1",
     "description": "cordova app template",
-    "repository": "github:oyajiDev/cordova-template",
-    "bugs": "https://github.com/oyajiDev/cordova-template/issues",
+    "repository": "github:somehitDev/cordova-template",
+    "bugs": "https://github.com/somehitDev/cordova-template/issues",
     "main": "index.js",
     "keywords": [
         "ecosystem:cordova",
         "cordova:template"
     ],
-    "author": "oyajiDev",
+    "scripts": {
+        "requirements": "cd ./src && npm run requirements",
+        "ready:icon": "cd ./src && npm run ready:icon",
+        "ready:splash": "cd ./src && npm run ready:splash",
+        "electron:add": "cd ./src && npm run electron:add",
+        "electron:run": "cd ./src && npm run electron:run",
+        "electron:build": "cd ./src && npm run electron:build",
+        "electron:release": "cd ./src && npm run electron:release",
+        "browser:add": "cd ./src && npm run browser:add",
+        "browser:run": "cd ./src && npm run browser:run",
+        "ios:add": "cd ./src && npm run ios:add",
+        "ios:emulate": "cd ./src && npm run ios:emulate",
+        "ios:build": "cd ./src && npm run ios:build",
+        "ios:clean": "cd ./src && npm run ios:clean",
+        "android:add": "cd ./src && npm run android:add",
+        "android:emulate": "cd ./src && npm run android:emulate",
+        "android:build": "cd ./src && npm run android:build",
+        "android:clean": "cd ./src && npm run android:clean"
+    },
+    "author": "somehitDev",
     "license": "MIT"
   }
