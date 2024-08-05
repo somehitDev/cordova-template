@@ -16,8 +16,8 @@
 ### add target platform
 - commands are avaiable for all platforms(electron, browser, ios, android).
 ```zsh
-# electron
-npm run electron:add
+# electron(alias desktop)
+npm run desktop:add
 # browser
 npm run browser:add
 # ios
@@ -38,8 +38,8 @@ npm run requirements
 ### run target platform
 - commands are avaiable for all platforms(electron, browser, ios, android).
 ```zsh
-# electron
-npm run electron:run
+# electron(alias desktop)
+npm run desktop:run
 # browser
 npm run browser:run
 # ios
@@ -53,9 +53,9 @@ npm run android:emulate
 ### build target platform
 - commands are avaiable for each platform(electron, ios, android).
 ```zsh
-# electron
-npm run electron:build # for debug
-npm run electron:release # for release
+# electron(alias desktop)
+npm run desktop:build # for debug
+npm run desktop:release # for release
 # ios
 npm run ios:build
 # android

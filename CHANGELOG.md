@@ -13,3 +13,5 @@
 - add `.gitignore`.
 - change `index.html`.
   - fix `README.md` url.
+- change `README.md`.
+  - change `electron` to `desktop`.
