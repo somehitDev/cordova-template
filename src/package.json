@@ -8,10 +8,10 @@
         "requirements": "cordova requirements",
         "ready:icon": "cordova-icon --config=config.xml --icon=assets/icon.png",
         "ready:splash": "cordova-splash --config=config.xml --splash=assets/splash.png",
-        "electron:add": "cordova platform add electron",
-        "electron:run": "cordova run electron --nobuild",
-        "electron:build": "node build.js electron --verbose",
-        "electron:release": "npm run electron:build -- --release",
+        "desktop:add": "cordova platform add electron",
+        "desktop:run": "cordova run electron --nobuild",
+        "desktop:build": "node build.js electron --verbose",
+        "desktop:release": "npm run electron:build -- --release",
         "browser:add": "cordova add browser",
         "browser:run": "cordova run browser",
         "ios:add": "cordova platform add ios",
@@ -29,7 +29,8 @@
     "author": "somehitDev",
     "license": "MIT",
     "devDependencies": {
-        "cordova-icon-new": "^1.0.2",
-        "@gabegates/cordova-splash": "^1.0.1"
+        "@gabegates/cordova-splash": "^1.0.1",
+        "cordova": "^12.0.0",
+        "cordova-icon-new": "^1.0.2"
     }
 }
